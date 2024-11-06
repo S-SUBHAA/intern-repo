@@ -1,7 +1,6 @@
-date:05-11-24
-OBJECTIVE: Tickbig Project Infrastuture Understanding(SECURITY FOCUSED)
-Platform:AWS
-TOOLS: EC2,VPC,ALB,apache2,subnets,routetable,internet gateway,Target Group.
+# Tickbig Project Infrastuture Understanding(SECURITY FOCUSED)
+## Platform:AWS
+## TOOLS: EC2,VPC,ALB,apache2,subnets,routetable,internet gateway,Target Group.
 
 
 

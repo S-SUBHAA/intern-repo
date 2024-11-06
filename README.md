@@ -40,19 +40,32 @@
 
            
  ### An Internet Gateway connects the VPC to the public internet, allowing resources in public subnets (like web servers) to communicate externally. Target Groups are associated with ALBs, defining the EC2 instances or IP addresses that will receive traffic. They support health checks to ensure traffic is only sent to healthy instances ###
+ ***
  ![targetgroup](https://github.com/user-attachments/assets/c5d641a6-9c51-4e37-a31d-89dc5bf7fab0)
  ### Target group ###
+ ***
  ### public ip - 13.233.236.154
+ ***
  ![ec21-op](https://github.com/user-attachments/assets/c862f42a-9ec7-4b8d-b017-16ce72078fef)
+ ***
  ### public ip-3.108.238.169
+ ***
  ![ec22-op](https://github.com/user-attachments/assets/9ead65e1-f1fc-4901-9eb2-e49a92ad02c3)
+ ***
  ### load balancer DNS:
+ ***
  ![final op1](https://github.com/user-attachments/assets/cbab731d-0101-4be5-85ab-6b8390972316)
+ ***
  ![final-op2](https://github.com/user-attachments/assets/77c02299-9fc2-4a19-845a-8a3157326657)
+ ***
  ### instance 1 apache2 installation page:
+ ***
 ![cmd 1](https://github.com/user-attachments/assets/fbe0a4c4-9776-47b7-973f-36a182f9c139)
+***
 ![cmd2](https://github.com/user-attachments/assets/3471e7b3-4e14-4148-8b50-675c7ab6c6cd)
+***
 ![cmd3](https://github.com/user-attachments/assets/4cd3448f-5f2e-4e96-a702-ba87686c6929)
+***
  ### instance 2 apache2 installation page:
 ![2 cmd 1](https://github.com/user-attachments/assets/63c2d4c4-5611-4512-8b9a-07b7716285ed)
 ***

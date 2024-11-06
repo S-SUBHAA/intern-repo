@@ -12,7 +12,7 @@
 ***
            
           
-### A VPC is a dedicated section of the AWS cloud that isolates network resources. Users can define their own IP address range my ip range(10.0.0.0/16), subnets, route tables, and security groups, ensuring a secure and customizable network environment for their resources. ###
+### A VPC is a dedicated section of the AWS cloud that isolates network resources. Users can define their own IP address range my ip range(10.0.0.0/16), subnets, route tables, and security groups, ensuring secure and customizable network environment for their resources. ###
 ![sg-1](https://github.com/user-attachments/assets/e53bcc28-0ae4-4300-ac36-da2ed472241b)
 ***
 ### Instance 1 security group ###
@@ -34,16 +34,14 @@
 ### An ALB distributes incoming application traffic across multiple EC2 instances to enhance availability and fault tolerance.
 ![loadbalancer](https://github.com/user-attachments/assets/844560eb-6276-4e2b-b061-583cdf676d06)
 
-### Subnets divide the VPC into smaller, manageable segments. Each subnet can be private or public, depending on its route table configuration. Route tables determine how traffic is directed within the VPC 
-### and to the internet 
+### Subnets divide the VPC into smaller, manageable segments. Each subnet can be private or public, depending on its route table configuration. Route tables determine how traffic is directed within the VPc and to the internet 
 ### Public subnets use route tables with entries directing traffic through an Internet Gateway.
  ![internetgateway](https://github.com/user-attachments/assets/f4486157-53ba-4d84-9b1d-6ff2c125abca)
 
            
- ### An Internet Gateway connects the VPC to the public internet, allowing resources in public subnets (like web servers) to communicate externally. Target Groups are associated with ALBs, defining the EC2 
- ### instances or IP addresses that will receive traffic. They support health checks to ensure traffic is only sent to healthy instances.
+ ### An Internet Gateway connects the VPC to the public internet, allowing resources in public subnets (like web servers) to communicate externally. Target Groups are associated with ALBs, defining the EC2 instances or IP addresses that will receive traffic. They support health checks to ensure traffic is only sent to healthy instances ###
  ![targetgroup](https://github.com/user-attachments/assets/c5d641a6-9c51-4e37-a31d-89dc5bf7fab0)
- ### Target group.
+ ### Target group ###
  ### public ip - 13.233.236.154
  ![ec21-op](https://github.com/user-attachments/assets/c862f42a-9ec7-4b8d-b017-16ce72078fef)
  ### public ip-3.108.238.169
@@ -57,9 +55,12 @@
 ![cmd3](https://github.com/user-attachments/assets/4cd3448f-5f2e-4e96-a702-ba87686c6929)
  ### instance 2 apache2 installation page:
 ![2 cmd 1](https://github.com/user-attachments/assets/63c2d4c4-5611-4512-8b9a-07b7716285ed)
+***
 
 ![2 cmd 2](https://github.com/user-attachments/assets/b77f8e3c-899d-47ce-8d14-f5255a9c68a7)
+***
 ![2 cmd 3](https://github.com/user-attachments/assets/957b1bf3-425c-4243-8220-f5dd1df378a3)
+***
 
 
 

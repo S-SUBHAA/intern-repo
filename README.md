@@ -14,6 +14,7 @@
           
 ### A VPC is a dedicated section of the AWS cloud that isolates network resources. Users can define their own IP address range my ip range(10.0.0.0/16), subnets, route tables, and security groups, ensuring a secure and customizable network environment for their resources. ###
 ![sg-1](https://github.com/user-attachments/assets/e53bcc28-0ae4-4300-ac36-da2ed472241b)
+***
 ### Instance 1 security group ###
  ![sg-2](https://github.com/user-attachments/assets/99f38e16-05ba-41e1-b172-715a07da86bd)
 ### Instance 2 security group ###

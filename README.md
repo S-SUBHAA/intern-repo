@@ -5,7 +5,7 @@
 
 
 
-## **Task Info:**
+#### **Task Info:**
  1.EC2 (Elastic Compute Cloud): This is a scalable virtual server hosting service by AWS. It allows users to run instances of virtual machines, supporting various applications including web servers like 
            Apache2. EC2 instances are crucial for deploying web applications and managing workloads.
            ![ec2](https://github.com/user-attachments/assets/aac645f1-fbb4-4493-bf2f-75cc493556ba)

@@ -1,1 +1,34 @@
 
+# Tickbig Project Infrastuture Understanding(SECURITY FOCUSED) #
+# Platform:AWS #
+# TOOLS: EC2,VPC,ALB,apache2,subnets,routetable,internet gateway,Target Group, internetgateway,nat gateway,autoscaling #
+
+EC2 (Elastic Compute Cloud)
+EC2 provides scalable virtual server instances for your applications, with various instance types tailored to different use cases (e.g., general-purpose, memory-intensive, compute-optimized). EC2 allows you to deploy, manage, and scale applications flexibly in the cloud, giving you control over the OS, configuration, storage, and network.
+###
+VPC (Virtual Private Cloud)
+VPC lets you create an isolated, customizable network environment in AWS. You can configure subnets, IP ranges, route tables, and gateways, allowing you to securely connect resources within the VPC. This is essential for controlling access and traffic flow for your applications.
+###
+ALB (Application Load Balancer)
+ALB is part of AWS's Elastic Load Balancing service, specifically designed for HTTP/HTTPS (Layer 7) traffic. It routes incoming application traffic across multiple EC2 instances based on request parameters, allowing for better scaling, performance, and high availability.
+###
+Apache2
+Apache2 is an open-source web server that serves HTTP/HTTPS requests. On AWS, it can be deployed on an EC2 instance to handle web requests, either as a standalone solution or in combination with other AWS services like ALB and Auto Scaling.
+###
+Subnets
+Subnets are subdivisions within a VPC that allow you to segment your network by grouping resources into different logical sections. You can create public or private subnets, each associated with specific IP ranges and route tables, to control traffic visibility and access.
+***
+Route Table
+Route tables define the rules for directing traffic within your VPC. Each subnet is associated with a route table that dictates how outbound and inbound traffic is routed, whether within the VPC, to other AWS services, or out to the internet via a gateway.
+***
+Internet Gateway
+An internet gateway enables communication between resources in your VPC and the internet. By attaching it to a VPC and configuring routing and security, instances within public subnets can access and be accessed by external networks.
+***
+Target Group
+Target groups are used with load balancers to direct requests to specific EC2 instances, IP addresses, or other endpoints. ALB routes requests to target groups, allowing you to apply health checks, monitor performance, and load-balance traffic across instances.
+***
+NAT Gateway
+A NAT gateway allows instances in a private subnet to access the internet while keeping them inaccessible from external sources. It is used to provide outbound internet access for updates, patches, and other necessary communications without exposing private instances.
+***
+Auto Scaling
+Auto Scaling enables you to automatically adjust the number of EC2 instances based on demand, maintaining performance and cost-efficiency. By setting scaling policies, you can handle spikes in traffic or reduce resources during low-demand periods, helping to manage resources and expenses dynamically.
